@@ -1,0 +1,23 @@
+html{
+	height: 100%;
+	width: 100%;
+	background-color: black;
+
+}
+button {
+	background-color: yellow;
+	padding: 10px 10px;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	border: 3px solid black;
+	border-radius: 10px;
+}
+.troll{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
